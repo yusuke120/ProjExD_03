@@ -139,6 +139,9 @@ class Beam:
         screen.blit(self.img, self.rct)
     
 class Score:
+    """
+    倒した数をスコアとして表示するクラス
+    """
     def __init__(self):
         self.font = pg.font.SysFont("hgp創英角ﾎﾟｯﾌﾟ体", 30)
         self.color = (0, 0, 255)
